@@ -30,6 +30,7 @@ public class OddOccurrencesInArray {
         return unpaired;
     }
 
+    //czyjeś ładniejsze rozwiązanie
     public static int solutionV2(int[] A) {
         int result = 0;
         for (int a : A) {
